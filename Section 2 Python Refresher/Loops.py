@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 __author__ = 'syurskyi'
 
-name=input("What is your name? ")
+name = input("What is your name? ")
 
 #  for loop ... range creates a list
 for i in range(1, 10):
