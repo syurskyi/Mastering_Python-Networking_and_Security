@@ -4,8 +4,8 @@ __author__ = 'syurskyi'
 name=input("What is your name? ")
 
 #  for loop ... range creates a list
-for i in range(1,10):
-    print (name, i)
+for i in range(1, 10):
+    print(name, i)
 
 # while loop using break
 x = 0
