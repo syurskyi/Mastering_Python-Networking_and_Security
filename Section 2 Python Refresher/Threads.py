@@ -16,16 +16,16 @@ class AThread(threading.Thread):
 
 
 def myfunc(num, val):
-    count=0
+    count = 0
     while count < val:
         print(num, " : ", val*count)
         count = count+1
 
 
-t1=AThread(1, 15)
-t2=AThread(2, 20)
-t3=AThread(3, 25)
-t4=AThread(4, 30)
+t1 = AThread(1, 15)
+t2 = AThread(2, 20)
+t3 = AThread(3, 25)
+t4 = AThread(4, 30)
 
 #  have to start them
 t1.start()
